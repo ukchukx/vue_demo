@@ -1,0 +1,5 @@
+<div id="app">
+  <example
+    logo="<%= Routes.static_path(@conn, "/images/phoenix.png") %>"
+    welcome-text="<%= gettext "Welcome to %{name}!", name: "Phoenix" %>" />
+</div>
